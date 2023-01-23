@@ -5,9 +5,10 @@ import java.net.*;
 import java.util.Enumeration;
 import java.util.Scanner;
 
+// создал клиента
 public class UDPServer {
-    public final static int SERVICE_PORT = 50001;
-
+    public final static int SERVICE_PORT = 50009;
+// прописал порт
     public static String getLocalIpAddress() {
         String ip = "";
         try {

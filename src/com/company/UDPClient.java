@@ -5,9 +5,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.Scanner;
 
+// создал книента
 public class UDPClient {
-    public final static int SERVICE_PORT = 5003;
-    private static  String client1="172.20.10.4";
+    public final static int SERVICE_PORT = 50003;
+    private static  String client1="255.255.255.6";
+    //прописал ip адресс
+    //прописал ip адресс
     public static void main(String[] args) throws IOException {
 
         //Прием сообщения
